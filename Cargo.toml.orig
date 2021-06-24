@@ -7,7 +7,8 @@ keywords = ["checked", "cast", "primitive", "integer", "float"]
 license = "MIT OR Apache-2.0"
 name = "cast"
 repository = "https://github.com/japaric/cast.rs"
-version = "0.2.3"
+version = "0.2.6"
+edition = "2018"
 
 [features]
 # Assume we should use `std` unless asked to do otherwise.
@@ -19,7 +20,7 @@ std = []
 x128 = []
 
 [build-dependencies]
-rustc_version = "0.2.3"
+rustc_version = "0.3.3"
 
 [dev-dependencies]
 quickcheck = "0.9.0"
