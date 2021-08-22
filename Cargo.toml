@@ -11,8 +11,9 @@
 # will likely look very different (and much more reasonable)
 
 [package]
+edition = "2018"
 name = "cast"
-version = "0.2.3"
+version = "0.2.7"
 authors = ["Jorge Aparicio <jorge@japaric.io>"]
 build = "build.rs"
 description = "Ergonomic, checked cast functions for primitive types"
@@ -23,7 +24,7 @@ repository = "https://github.com/japaric/cast.rs"
 [dev-dependencies.quickcheck]
 version = "0.9.0"
 [build-dependencies.rustc_version]
-version = "0.2.3"
+version = "0.4.0"
 
 [features]
 default = ["std"]
