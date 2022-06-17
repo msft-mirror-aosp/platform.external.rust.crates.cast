@@ -14,11 +14,6 @@
       "path": "external/rust/crates/unicode-xid"
     }
   ],
-  "postsubmit": [
-    {
-      "name": "cast_test_src_lib"
-    }
-  ],
   "presubmit": [
     {
       "name": "cast_test_src_lib"
